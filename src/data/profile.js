@@ -1,5 +1,5 @@
 export const profile = {
-  name: 'Aswin Bharathi M',
+  name: 'Avudaiyappa Aswin Bharathi M',
   title: 'Software Developer',
   tagline: 'Building AI-powered products with bold user experiences.',
   email: 'iamaswin6278@gmail.com',
@@ -19,7 +19,6 @@ export const skills = [
   'REST APIs',
   'MySQL',
   'Oracle',
-  'Gemini API',
   'GitHub',
   'UI/UX Design',
 ]
@@ -27,7 +26,7 @@ export const skills = [
 export const projects = [
   {
     title: 'DEXA - Voice Controlled Desktop Automation',
-    period: '2024 - 2025',
+    period: '2025',
     summary:
       'Built an agentic assistant for hands-free automation using Python, speech recognition, and Gemini API.',
     highlights: [
@@ -38,7 +37,7 @@ export const projects = [
   },
   {
     title: 'Quiz Management System',
-    period: '2024',
+    period: '2025-2026',
     summary:
       'Developed a full-stack Flask + MySQL platform for quiz operations across departments.',
     highlights: [
