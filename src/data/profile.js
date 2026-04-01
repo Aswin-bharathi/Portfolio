@@ -36,7 +36,7 @@ export const projects = [
     ],
   },
   {
-    title: 'Quiz Management System',
+    title: 'BrainXpert - Quiz Management System',
     period: '2025-2026',
     summary:
       'Developed a full-stack Flask + MySQL platform for quiz operations across departments.',
