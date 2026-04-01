@@ -3,13 +3,6 @@ import { certifications, profile, projects, skills } from './data/profile'
 import './App.css'
 
 function App() {
-  const impactStats = [
-    { label: 'Users Supported', value: '100+' },
-    { label: 'Internship Duration', value: '2 Months' },
-    { label: 'Current BSc Score', value: '84.2%' },
-    { label: 'NPTEL Java Score', value: '77%' },
-  ]
-
   const skillGroups = [
     {
       title: 'Programming',
@@ -25,32 +18,11 @@ function App() {
     },
     {
       title: 'AI & Product',
-      items: ['Gemini API Integration', 'Automation Workflows', 'UI/UX Thinking', 'Agile Collaboration'],
+      items: ['Gemini API Integration', 'Automation Workflows', 'UI/UX Thinking'],
     },
   ]
 
-  const workflow = [
-    {
-      step: '01',
-      title: 'Discover',
-      text: 'Understand the workflow problem, users, and delivery constraints before writing code.',
-    },
-    {
-      step: '02',
-      title: 'Design',
-      text: 'Plan API contracts, data flow, and UI states for stable implementation.',
-    },
-    {
-      step: '03',
-      title: 'Build',
-      text: 'Develop end-to-end features with reusable components and readable backend structure.',
-    },
-    {
-      step: '04',
-      title: 'Polish',
-      text: 'Optimize UX, validate edge cases, and prepare deployment-ready quality.',
-    },
-  ]
+  
 
   const services = [
     {
